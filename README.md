@@ -1,5 +1,4 @@
-# Spck-Editor
-Hey there, <br>
-Mustavi Al Mueid <br>
+# About the Developer
+Hey there, Mustavi Al Mueid <br>
 I am a student <br>
 I wanna be a software engineer <br> 
