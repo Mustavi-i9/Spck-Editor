@@ -369,10 +369,6 @@ If we don't support your language, please consider contributing! You can find mo
 | `size_weight` | Configures language stats algorithm (see [Language stats algorithm](#language-stats-algorithm)). | integer | `1` |
 | `count_weight` | Configures language stats algorithm (see [Language stats algorithm](#language-stats-algorithm)). | integer | `0` |
 
-> [!WARNING]\
-> Language names should be URI-escaped, as specified in [Percent Encoding](https://en.wikipedia.org/wiki/Percent-encoding)
-> (i.e: `c++` should become `c%2B%2B`, `jupyter notebook` should become `jupyter%20notebook`, etc.) You can use
-> [urlencoder.org](https://www.urlencoder.org/) to help you do this automatically.
 
 #### WakaTime Card Exclusive Options
 
@@ -397,26 +393,37 @@ GitHub extra pins allow you to pin more than 6 repositories in your profile usin
 
 Yay! You are no longer limited to 6 pinned repositories.
 
-### Usage
 
-Copy-paste this code into your readme and change the links.
-
-Endpoint: `api/pin?username=anuraghazra&repo=github-readme-stats`
-
-```md
-[![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=anuraghazra&repo=github-readme-stats)](https://github.com/anuraghazra/github-readme-stats)
-```
-
-# Top Languages Card
+# Top Languages
 
 The top languages card shows a GitHub user's most frequently used languages.
-
-> [!WARNING]\
-> By default, the language card shows language results only from public repositories. To include languages used in private repositories, you should [deploy your own instance](#deploy-on-your-own) using your own GitHub API token.
 
 > [!NOTE]\
 > Top Languages does not indicate the user's skill level or anything like that; it's a GitHub metric to determine which languages have the most code on GitHub. It is a new feature of github-readme-stats.
 
+
+
+### Demo
+
+> [!WARNING]\
+> Please be aware that we currently only show data from WakaTime profiles that are public. You therefore have to make sure that **BOTH** `Display code time publicly` and `Display languages, editors, os, categories publicly` are enabled.
+ [!WARNING]\
+> > You should [deploy your own instance](#deploy-on-your-own) using your own GitHub API token.
+
+### Thank you
+> [!Warning]\
+> thank you 💖
+Change the `username =` value to your [WakaTime](https://wakatime.com) username.
+
+```md
+Mustavi
+```
+### Hey 
+
+> [!WARNING]\
+> Language names should be URI-escaped, as specified in [Percent Encoding](https://en.wikipedia.org/wiki/Percent-encoding)
+> (i.e: `c++` should become `c%2B%2B`, `jupyter notebook` should become `jupyter%20notebook`, etc.) You can use
+> [urlencoder.org](https://www.urlencoder.org/) to help you do this automatically.
 
 ### Usage
 
@@ -425,13 +432,3 @@ You can use the `&layout=donut` option to change the card design.
 ```md
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
 ```
-
-### Demo
-
-> [!WARNING]\
-> Please be aware that we currently only show data from WakaTime profiles that are public. You therefore have to make sure that **BOTH** `Display code time publicly` and `Display languages, editors, os, categories publicly` are enabled.
-
-Change the `?username=` value to your [WakaTime](https://wakatime.com) username.
-
-```md
-Mustavi
