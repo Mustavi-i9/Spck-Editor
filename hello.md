@@ -61,11 +61,6 @@ Please visit [this link](https://give.do/fundraisers/stand-beside-the-victims-of
 
 # Features <!-- omit in toc -->
 
-- [GitHub Stats Card](#github-stats-card)
-- [WakaTime Stats Card](#wakatime-stats-card)
-    - [Demo](#demo-3)
-- [All Demos](#all-demos)
-  - [Quick Tip (Align The Cards)](#quick-tip-align-the-cards)
 - [Deploy on your own](#deploy-on-your-own)
   - [On Vercel](#on-vercel)
     - [:film\_projector: Check Out Step By Step Video Tutorial By @codeSTACKr](#film_projector-check-out-step-by-step-video-tutorial-by-codestackr)
@@ -79,14 +74,6 @@ Please visit [this link](https://give.do/fundraisers/stand-beside-the-victims-of
 
 
 
-##### GitHub
-
-```html
-<mustavi>
-```
-```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=transparent)
-```
 
 #### Common Options
 
@@ -104,11 +91,6 @@ Please visit [this link](https://give.do/fundraisers/stand-beside-the-victims-of
 | `border_radius` | Corner rounding on the card. | number | `4.5` |
 
 
-##### Gradient
-
-You can provide multiple comma-separated values in the bg\_color option to render a gradient with the following format:
-
-    &bg_color=DEG,COLOR1,COLOR2,COLOR3...COLOR10
 
 ##### Available locales
 
@@ -220,3 +202,14 @@ You can use the `&layout=donut` option to change the card design.
 > [!IMPORTANT]\
 > Tata everyone
 
+##### GitHub
+
+```html
+<mustavi>
+```
+```md
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=transparent)
+```
+##### Gradient
+
+    &bg_color=DEG,COLOR1,COLOR2,COLOR3...COLOR10
