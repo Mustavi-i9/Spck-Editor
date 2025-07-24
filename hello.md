@@ -84,12 +84,8 @@ Please visit [this link](https://give.do/fundraisers/stand-beside-the-victims-of
 ```html
 <mustavi>
 ```
-
 ```md
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=transparent)
-```
-```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&bg_color=00000000)
 ```
 
 #### Common Options
