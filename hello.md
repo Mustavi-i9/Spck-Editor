@@ -164,38 +164,6 @@ Here is a list of all available locales:
 
 If we don't support your language, please consider contributing! You can find more information about how to do it in our [contributing guidelines](CONTRIBUTING.md#translations-contribution).
 
-
-
-#### Repo Card Exclusive Options
-
-| Name | Description | Type | Default value |
-| --- | --- | --- | --- |
-| `show_owner` | Shows the repo's owner name. | boolean | `false` |
-| `description_lines_count` | Manually set the number of lines for the description. Specified value will be clamped between 1 and 3. If this parameter is not specified, the number of lines will be automatically adjusted according to the actual length of the description. | number | `null` |
-
-#### Gist Card Exclusive Options
-
-| Name | Description | Type | Default value |
-| --- | --- | --- | --- |
-| `show_owner` | Shows the gist's owner name. | boolean | `false` |
-
-#### Language Card Exclusive Options
-
-| Name | Description | Type | Default value |
-| --- | --- | --- | --- |
-| `hide` | Hides the [specified languages](#hide-individual-languages) from card. | string (comma-separated values) | `null` |
-| `hide_title` | Hides the title of your card. | boolean | `false` |
-| `layout` | Switches between five available layouts `normal` & `compact` & `donut` & `donut-vertical` & `pie`. | enum | `normal` |
-| `card_width` | Sets the card's width manually. | number | `300` |
-| `langs_count` | Shows more languages on the card, between 1-20. | integer | `5` for `normal` and `donut`, `6` for other layouts |
-| `exclude_repo` | Excludes specified repositories. | string (comma-separated values) | `null` |
-| `custom_title` | Sets a custom title for the card. | string | `Most Used Languages` |
-| `disable_animations` | Disables all animations in the card. | boolean | `false` |
-| `hide_progress` | Uses the compact layout option, hides percentages, and removes the bars. | boolean | `false` |
-| `size_weight` | Configures language stats algorithm (see [Language stats algorithm](#language-stats-algorithm)). | integer | `1` |
-| `count_weight` | Configures language stats algorithm (see [Language stats algorithm](#language-stats-algorithm)). | integer | `0` |
-
-
 #### WakaTime Card Exclusive Options
 
 | Name | Description | Type | Default value |
