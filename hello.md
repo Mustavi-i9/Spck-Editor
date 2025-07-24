@@ -79,36 +79,11 @@ Please visit [this link](https://give.do/fundraisers/stand-beside-the-victims-of
 
 <img alt="Uptime Badge" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fgithub-readme-stats-git-monitoring-github-readme-stats-team.vercel.app%2Fapi%2Fstatus%2Fup%3Ftype%3Dshields">
 
-# GitHub Stats Card
-
-Copy and paste this into your markdown, and that's it. Simple!
-
-Change the `?username=` value to your GitHub username.
-
-```md
-[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
-```
-
-
-### Hiding individual stats
-
-You can pass a query parameter `&hide=` to hide any specific stats with comma-separated values.
-
-> Options: `&hide=stars,commits,prs,issues,contribs`
-
-```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=contribs,prs)
-```
 
 
 
-### Showing icons
 
-To enable icons, you can pass `&show_icons=true` in the query param, like so:
 
-```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true)
-```
 
 ### Themes
 
@@ -217,9 +192,6 @@ You can use [GitHub's new media feature](https://github.blog/changelog/2022-05-1
 
 </details>
 
-### Customization
-
-You can customize the appearance of all your cards however you wish with URL parameters.
 
 #### Common Options
 
@@ -360,7 +332,8 @@ The top languages card shows a GitHub user's most frequently used languages.
 ### Thank you
 > [!Warning]\
 > thank you 💖
-Change the `username =` value to your [WakaTime](https://wakatime.com) username.
+
+> I am a `Software Engineer =` at `Google`  [WakaTime](https://wakatime.com) username.
 
 ```md
 Mustavi
