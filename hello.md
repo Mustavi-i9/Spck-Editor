@@ -76,13 +76,8 @@ Please visit [this link](https://give.do/fundraisers/stand-beside-the-victims-of
 
 # Important Notices <!-- omit in toc -->
 
-> [!IMPORTANT]\
-> Since the GitHub API only [allows 5k requests per hour per user account](https://docs.github.com/en/graphql/overview/resource-limitations), the public Vercel instance hosted on `https://github-readme-stats.vercel.app/api` could possibly hit the rate limiter (see [#1471](https://github.com/anuraghazra/github-readme-stats/issues/1471)). We use caching to prevent this from happening (see https://github.com/anuraghazra/github-readme-stats#common-options). You can turn off these rate limit protections by deploying [your own Vercel instance](#disable-rate-limit-protections).
 
 <img alt="Uptime Badge" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fgithub-readme-stats-git-monitoring-github-readme-stats-team.vercel.app%2Fapi%2Fstatus%2Fup%3Ftype%3Dshields">
-
-> [!IMPORTANT]\
-> We're a small team, and to prioritize, we rely on upvotes :+1:. We use the Top Issues dashboard for tracking community demand (see [#1935](https://github.com/anuraghazra/github-readme-stats/issues/1935)). Do not hesitate to upvote the issues and pull requests you are interested in. We will work on the most upvoted first.
 
 # GitHub Stats Card
 
@@ -105,15 +100,7 @@ You can pass a query parameter `&hide=` to hide any specific stats with comma-se
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&hide=contribs,prs)
 ```
 
-### Showing additional individual stats
 
-You can pass a query parameter `&show=` to show any specific additional stats with comma-separated values.
-
-> Options: `&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage`
-
-```md
-![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)
-```
 
 ### Showing icons
 
@@ -249,10 +236,8 @@ You can customize the appearance of all your cards however you wish with URL par
 | `locale` | Sets the language in the card, you can check full list of available locales [here](#available-locales). | enum | `en` |
 | `border_radius` | Corner rounding on the card. | number | `4.5` |
 
-> [!WARNING]\
-> We use caching to decrease the load on our servers (see <https://github.com/anuraghazra/github-readme-stats/issues/1471#issuecomment-1271551425>). Our cards have a default cache of 6 hours (21600 seconds). Also, note that the cache is clamped to a minimum of 6 hours and a maximum of 24 hours. If you want the data on your statistics card to be updated more often you can [deploy your own instance](#deploy-on-your-own) and set [environment variable](#disable-rate-limit-protections) `CACHE_SECONDS` to a value of your choosing.
 
-##### Gradient in bg\_color
+##### Gradient
 
 You can provide multiple comma-separated values in the bg\_color option to render a gradient with the following format:
 
@@ -312,28 +297,7 @@ Here is a list of all available locales:
 
 If we don't support your language, please consider contributing! You can find more information about how to do it in our [contributing guidelines](CONTRIBUTING.md#translations-contribution).
 
-#### Stats Card Exclusive Options
 
-| Name | Description | Type | Default value |
-| --- | --- | --- | --- |
-| `hide` | Hides the [specified items](#hiding-individual-stats) from stats. | string (comma-separated values) | `null` |
-| `hide_title` | Hides the title of your stats card. | boolean | `false` |
-| `card_width` | Sets the card's width manually. | number | `500px  (approx.)` |
-| `hide_rank` | Hides the rank and automatically resizes the card width. | boolean | `false` |
-| `rank_icon` | Shows alternative rank icon (i.e. `github`, `percentile` or `default`). | enum | `default` |
-| `show_icons` | Shows icons near all stats. | boolean | `false` |
-| `include_all_commits` | Count total commits instead of just the current year commits. | boolean | `false` |
-| `line_height` | Sets the line height between text. | integer | `25` |
-| `exclude_repo` | Excludes specified repositories. | string (comma-separated values) | `null` |
-| `custom_title` | Sets a custom title for the card. | string | `<username> GitHub Stats` |
-| `text_bold` | Uses bold text. | boolean | `true` |
-| `disable_animations` | Disables all animations in the card. | boolean | `false` |
-| `ring_color` | Color of the rank circle. | string (hex color) | `2f80ed` |
-| `number_format` | Switches between two available formats for displaying the card values `short` (i.e. `6.6k`) and `long` (i.e. `6626`). | enum | `short` |
-| `show` | Shows [additional items](#showing-additional-individual-stats) on stats card (i.e. `reviews`, `discussions_started`, `discussions_answered`, `prs_merged` or `prs_merged_percentage`). | string (comma-separated values) | `null` |
-
-> [!NOTE]\
-> When hide\_rank=`true`, the minimum card width is 270 px + the title length and padding.
 
 #### Repo Card Exclusive Options
 
@@ -416,3 +380,11 @@ You can use the `&layout=donut` option to change the card design.
 
 > [!NOTE]\
 > The global percentile is based on the cumulative distribution function of the [exponential](https://wikipedia.org/wiki/exponential_distribution)
+
+> [!IMPORTANT]\
+> Tata everyone
+
+
+> [!WARNING]\
+> We use caching to decrease the load on our servers (see <https://github.com/anuraghazra/github-readme-stats/issues/1471#issuecomment-1271551425>). Our cards have a default cache of 6 hours (21600 seconds). Also, note that the cache is clamped to a minimum of 6 hours and a maximum of 24 hours. If you want the data on your statistics card to be updated more often you can [deploy your own instance](#deploy-on-your-own) and set [environment variable](#disable-rate-limit-protections) `CACHE_SECONDS` to a value of your choosing.
+
