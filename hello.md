@@ -94,11 +94,6 @@ Change the `?username=` value to your GitHub username.
 [![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
 ```
 
-> [!WARNING]\
-> By default, the stats card only shows statistics like stars, commits, and pull requests from public repositories. To show private statistics on the stats card, you should [deploy your own instance](#deploy-on-your-own) using your own GitHub API token.
-
-> [!NOTE]\
-> Available ranks are S (top 1%), A+ (12.5%), A (25%), A- (37.5%), B+ (50%), B (62.5%), B- (75%), C+ (87.5%) and C (everyone). This ranking scheme is based on the [Japanese academic grading](https://wikipedia.org/wiki/Academic_grading_in_Japan) system. The global percentile is calculated as a weighted sum of percentiles for each statistic (number of commits, pull requests, reviews, issues, stars, and followers), based on the cumulative distribution function of the [exponential](https://wikipedia.org/wiki/exponential_distribution) and the [log-normal](https://wikipedia.org/wiki/Log-normal_distribution) distributions. The implementation can be investigated at [src/calculateRank.js](https://github.com/anuraghazra/github-readme-stats/blob/master/src/calculateRank.js). The circle around the rank shows 100 minus the global percentile.
 
 ### Hiding individual stats
 
@@ -408,7 +403,7 @@ The top languages card shows a GitHub user's most frequently used languages.
 > [!WARNING]\
 > Please be aware that we currently only show data from WakaTime profiles that are public. You therefore have to make sure that **BOTH** `Display code time publicly` and `Display languages, editors, os, categories publicly` are enabled.
  [!WARNING]\
-> > You should [deploy your own instance](#deploy-on-your-own) using your own GitHub API token.
+> You should [deploy your own instance](#deploy-on-your-own) using your own GitHub API token.
 
 ### Thank you
 > [!Warning]\
@@ -418,12 +413,6 @@ Change the `username =` value to your [WakaTime](https://wakatime.com) username.
 ```md
 Mustavi
 ```
-### Hey 
-
-> [!WARNING]\
-> Language names should be URI-escaped, as specified in [Percent Encoding](https://en.wikipedia.org/wiki/Percent-encoding)
-> (i.e: `c++` should become `c%2B%2B`, `jupyter notebook` should become `jupyter%20notebook`, etc.) You can use
-> [urlencoder.org](https://www.urlencoder.org/) to help you do this automatically.
 
 ### Usage
 
@@ -432,3 +421,10 @@ You can use the `&layout=donut` option to change the card design.
 ```md
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=anuraghazra&layout=donut)](https://github.com/anuraghazra/github-readme-stats)
 ```
+
+
+> [!WARNING]\
+> you should [deploy your own instance](#deploy-on-your-own) using your own GitHub API token.
+
+> [!NOTE]\
+> The global percentile is based on the cumulative distribution function of the [exponential](https://wikipedia.org/wiki/exponential_distribution)
