@@ -25,13 +25,13 @@
     <br>  
 
   <p align="center">
-    <a href="#all-demos">View Demo</a>
+    <a href="#all-demos">Facebook</a>
     ·
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Report Bug</a>
+    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new?assignees=&labels=bug&projects=&template=bug_report.yml">Instagram</a>
     ·
-    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">Request Feature</a>
+    <a href="https://github.com/anuraghazra/github-readme-stats/issues/new?assignees=&labels=enhancement&projects=&template=feature_request.yml">LinkedIn</a>
     ·
-    <a href="https://github.com/anuraghazra/github-readme-stats/discussions/1770">FAQ</a>
+    <a href="https://github.com/anuraghazra/github-readme-stats/discussions/1770">Linktree</a>
     ·
     <a href="https://github.com/anuraghazra/github-readme-stats/discussions/new?category=q-a">Ask Question</a>
   </p>
@@ -47,16 +47,16 @@
 Bangladesh has recently suffered one of the most devastating train accidents, and your help will be immensely valuable for the people who were affected by this tragedy
 
 
-# Features
+# MERN
 
-- :sparkling\_heart: Support the project
-- Full Stack Developer
-  - [On Vercel](#on-vercel)
-    - :film\_projector: Check
-  - CSS
-  - Javascript
-  - MERN Stack
+- `Mongodb`
+- `Express`
+- `React`
+- `Node.js`
 
+- :sparkling\_heart: MERN 
+  - [](#on-vercel)
+    - :film\projector:
 
 
 
@@ -189,7 +189,7 @@ You can use the `&layout=donut` option to change the card design.
 > [!IMPORTANT]\
 > Tata everyone
 
-##### GitHub
+GitHub
 
 ```html
 <mustavi>
@@ -197,6 +197,6 @@ You can use the `&layout=donut` option to change the card design.
 ```md
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=anuraghazra&show_icons=true&theme=transparent)
 ```
-##### Gradient
+ Gradient
 
     &bg_color=DEG,COLOR1,COLOR2,COLOR3...COLOR10
