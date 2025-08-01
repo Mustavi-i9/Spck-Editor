@@ -121,12 +121,12 @@ Here is a list of all available locales:
 
 If we don't support your language, please consider contributing! You can find more information about how to do it in our [contributing guidelines](CONTRIBUTING.md#translations-contribution).
 
-#### WakaTime Card Exclusive Options
+#### Exclusive Options
 
 | Name | Description | Type | Default value |
 | --- | --- | --- | --- |
-| `hide` | Hides the languages specified from the card. | string (comma-separated values) | `null` |
-| `hide_title` | Hides the title of your card. | boolean | `false` |
+| `Basic` | Javascript | Font-end | `Mandatory` |
+| `MERN` | Hides the title of your card. | boolean | `false` |
 | `line_height` | Sets the line height between text. | integer | `25` |
 | `hide_progress` | Hides the progress bar and percentage. | boolean | `false` |
 | `custom_title` | Sets a custom title for the card. | string | `WakaTime Stats` |
